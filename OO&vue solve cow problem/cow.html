@@ -1,0 +1,31 @@
+<!DOCUTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Cow</title>
+    <link rel="stylesheet" type="text/css" href="cow.css">
+    <script src="https://unpkg.com/vue"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="control">
+            <h1>杀牛狂人</h1>
+            <h2>农场一头刚出生的小母牛，母牛五岁产母牛</h2>
+            <label for="years">第<span v-text="message"></span>年杀死第一头牛：</label><br/>
+            <input type="text" id="years" v-model='message'>
+            <div id="kill" v-on:click="run">
+                杀
+            </div>
+            <div>
+                <ul v-for="item in items">
+                    <li>{{item.text}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="cow.js"></script>
+</body>
+
+</html>

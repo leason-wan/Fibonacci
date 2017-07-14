@@ -1,0 +1,36 @@
+*{
+    font-size: 28px;
+}
+#container {
+    margin: 0 auto;
+    width: 50%;
+}
+
+h1{
+    color: #ffe171;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+#kill{
+    display: inline-block;
+    font-size: 28px;
+    width: 100px;
+    height: 40px;
+    background-color: #20a6fa;
+    color: #ffe171;
+    text-shadow: 1px 1px 2px #ffe171;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #4c98f5;
+    text-align: center;
+    cursor: pointer;
+}
+
+#succes {
+    color: red;
+    font-size: 24px;
+    display: none;
+}
